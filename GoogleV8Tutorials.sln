@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{E075230C-B68C-424F-8991-05794CFD9CBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicVariables", "DynamicVariables\DynamicVariables.vcxproj", "{87C67F2A-A8F6-4C49-ABF3-5B3F679BF4D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticVariables", "StaticVariables\StaticVariables.vcxproj", "{F192C4A7-D4C1-439A-8242-509EB56C2CAF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExposingCppFunctionsToJavaScript", "ExposingCppFunctionsToJavaScript\ExposingCppFunctionsToJavaScript.vcxproj", "{2ADC695B-E738-4C7C-9F62-E931935B517C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CallJSFunctionFromCpp", "CallJSFunctionFromCpp\CallJSFunctionFromCpp.vcxproj", "{C3073797-3CFF-46FF-BD24-97DFF4BCC80F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DefiningJSObjectsInCpp", "DefiningJSObjectsInCpp\DefiningJSObjectsInCpp.vcxproj", "{149041F1-A7EF-44AB-89EB-85601F78123D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExposingJSWrappedCppObj", "ExposingJSWrappedCppObj\ExposingJSWrappedCppObj.vcxproj", "{4839C286-AAA5-4142-A8C4-A8EA0A655B04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E075230C-B68C-424F-8991-05794CFD9CBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E075230C-B68C-424F-8991-05794CFD9CBD}.Debug|Win32.Build.0 = Debug|Win32
+		{E075230C-B68C-424F-8991-05794CFD9CBD}.Release|Win32.ActiveCfg = Release|Win32
+		{E075230C-B68C-424F-8991-05794CFD9CBD}.Release|Win32.Build.0 = Release|Win32
+		{87C67F2A-A8F6-4C49-ABF3-5B3F679BF4D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87C67F2A-A8F6-4C49-ABF3-5B3F679BF4D5}.Debug|Win32.Build.0 = Debug|Win32
+		{87C67F2A-A8F6-4C49-ABF3-5B3F679BF4D5}.Release|Win32.ActiveCfg = Release|Win32
+		{87C67F2A-A8F6-4C49-ABF3-5B3F679BF4D5}.Release|Win32.Build.0 = Release|Win32
+		{F192C4A7-D4C1-439A-8242-509EB56C2CAF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F192C4A7-D4C1-439A-8242-509EB56C2CAF}.Debug|Win32.Build.0 = Debug|Win32
+		{F192C4A7-D4C1-439A-8242-509EB56C2CAF}.Release|Win32.ActiveCfg = Release|Win32
+		{F192C4A7-D4C1-439A-8242-509EB56C2CAF}.Release|Win32.Build.0 = Release|Win32
+		{2ADC695B-E738-4C7C-9F62-E931935B517C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2ADC695B-E738-4C7C-9F62-E931935B517C}.Debug|Win32.Build.0 = Debug|Win32
+		{2ADC695B-E738-4C7C-9F62-E931935B517C}.Release|Win32.ActiveCfg = Release|Win32
+		{2ADC695B-E738-4C7C-9F62-E931935B517C}.Release|Win32.Build.0 = Release|Win32
+		{C3073797-3CFF-46FF-BD24-97DFF4BCC80F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3073797-3CFF-46FF-BD24-97DFF4BCC80F}.Debug|Win32.Build.0 = Debug|Win32
+		{C3073797-3CFF-46FF-BD24-97DFF4BCC80F}.Release|Win32.ActiveCfg = Release|Win32
+		{C3073797-3CFF-46FF-BD24-97DFF4BCC80F}.Release|Win32.Build.0 = Release|Win32
+		{149041F1-A7EF-44AB-89EB-85601F78123D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{149041F1-A7EF-44AB-89EB-85601F78123D}.Debug|Win32.Build.0 = Debug|Win32
+		{149041F1-A7EF-44AB-89EB-85601F78123D}.Release|Win32.ActiveCfg = Release|Win32
+		{149041F1-A7EF-44AB-89EB-85601F78123D}.Release|Win32.Build.0 = Release|Win32
+		{4839C286-AAA5-4142-A8C4-A8EA0A655B04}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4839C286-AAA5-4142-A8C4-A8EA0A655B04}.Debug|Win32.Build.0 = Debug|Win32
+		{4839C286-AAA5-4142-A8C4-A8EA0A655B04}.Release|Win32.ActiveCfg = Release|Win32
+		{4839C286-AAA5-4142-A8C4-A8EA0A655B04}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
